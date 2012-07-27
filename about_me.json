@@ -1,0 +1,19 @@
+{
+    "name": "Tom Alexander",
+    "email": "tomalexander@paphus.com",
+    "phone": "+1-215-867-9759",
+
+    "college": "Rensselaer Polytechnic Institute",
+    "class": "Class of 2013",
+    "major": "Games and Simulations Arts and Sciences, Computer Science",
+    "status": "Dean's List",
+
+    "engines": ["Unity3D", "Panda3D", "Corona SDK", "PyGame"],
+    "editor": "Emacs",
+    "languages": ["C++", "C", "PHP", "Python", "Java", "SQL", "Lisp", "Visual C#", "Visual Basic"],
+    "libraries": ["OpenGL", "SDL", "PyGame"],
+    "vcs": ["Git", "SVN"],
+    "build_systems": ["Premake", "CMake"],
+    "os": ["Arch Linux x86_64", "Windows 7 x86_64", "Android"],
+    "comment_system": ["Doxygen"]
+}

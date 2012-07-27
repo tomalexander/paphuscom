@@ -1,0 +1,157 @@
+[
+    {
+        "title": "Tea and Muskets",
+        "shortdesc": "An A-symmetrical real time strategy game set during the revolutionary war",
+        "fulldesc": "In Tea and Muskets players control either the British forces or Revere. If playing as Revere, their goal is to travel from town to town to spread the word of the impending arrival of the British. Meanwhile the British are attempting to prevent Revere from reaching those towns. The British are capable of fielding vastly superior numbers but must send any orders via messenger and must therefore make more large, sweeping movements. In addition, while both players know where towns are located, the British don't know the lay of the land the way Revere does and therefore cannot see terrain they have yet to explore while Revere can.",
+        "startyear": "2012",
+        "type": "Academic",
+        "class": "Game Dev 2",
+        "contributors": ["Michael \"Chap\" Gruar", "Tate Larsen", "Peter Skinner", "Nathan West"],
+        "role": "Maps and Networking Functionality",
+        "purpose": "Given all semester write a game in Unity3d. We went with an A-Symmetrical RTS",
+        "skills": ["C#", "Unity3D", "Networking", "Map Design"],
+        "source": "source/teaandmuskets.zip",
+        "binaries": "binary/teaandmuskets_binary.zip",
+        "postmortem": "http://static.paphus.com/gamedev2/tea_and_muskets_post_mortem.pdf",
+        "pictures": ["img/teaandmuskets/Snapshot-1", "img/teaandmuskets/Snapshot-2", "img/teaandmuskets/Snapshot-3"],
+        "videos": ["vid/teaandmuskets/teaandmusketsHD.webm"]
+    },
+    {
+        "title": "Nostalgia",
+        "shortdesc": "Navigate this maze from your past to escape",
+        "fulldesc": "This is a maze/puzzle game with elements from old video games",
+        "startyear": "2011",
+        "type": "Academic",
+        "class": "Game Dev 1",
+        "contributors": ["Tom Anesta", "Dave Strohl", "Randy Sabella", "Varun Madith"],
+        "role": "I maintained the list of objects that could be interacted with in the code, Wrote the script to collect coins, Wrote the script to activate levers, Wrote the script to open doors, and wrote the cannon ball / shield puzzle (including shield layout, firing cannon, rotating shields, messing with physics, checking for pipe collision, opening victory door)",
+        "purpose": "Given two weeks and the topic of nostalgia write a game in Unity3D",
+        "skills": ["C#", "Unity3D"],
+        "binaries": "binary/nostalgia.zip",
+        "pictures": ["img/nostalgia/1", "img/nostalgia/2", "img/nostalgia/3"]
+    },
+    {
+        "title": "Rezolution",
+        "shortdesc": "A networked multiplayer 3D bump car game",
+        "fulldesc": "Enter an arena with other online players in a 3D bumper car game. Turn off your lights to go stealth and smash your opponents into the various traps around the arena.",
+        "startyear": "2011",
+        "type": "Academic",
+        "class": "Game Development 1",
+        "contributors": ["Rosa Tung", "Brett Kaplan", "Dan Hawkins", "Andrew Keohane"],
+        "role": "My role in this group was the implementation of the main menu, using the wxpython library, the bulk of the world loading code, and the implementation of the bulk of the various traps located around the arena. Our main focus in this game was the implementation of social gameplay, which Andrew implemented through the multiplayer networking, but I continued the networked-spirit in the main menu, which also consisted of a server-side portion written in PHP using a sqlite database to maintain a list of currently running servers to faciliate the match making process. I also set up a quick and dirty echo server to faciliate the acquision of the player’s public ip address, which is a necessary first step towards interactive gameplay. Also, I put in the particle effect smoke system to indicate the player’s health.",
+        "purpose": "Given two weeks write a 3D vehicle game in Panda3D with working headlights",
+        "skills": ["wxPython", "Panda3D", "PHP", "Python", "git"],
+        "github": "https://github.com/craftkiller/group-3",
+        "source": "https://github.com/craftkiller/group-3/zipball/master"
+    },
+    {
+        "title": "Extraction",
+        "shortdesc": "A colonist rescue game for android/iphone",
+        "fulldesc": "A colonist rescue game for android/iphone. Distribute sheild generators to extract the colonists before the meteors kill them",
+        "startyear": "2011",
+        "type": "Academic",
+        "class": "Game Development 1",
+        "contributors": ["Tyler Moylan", "Ivy Kwan", "Kenny Du", "Colin Neville"],
+        "purpose": "Given 2 weeks and the random verbs \"Extract\" and \"Distribute\" write a cellphone game using the Corona SDK with those two verbs as the main actions",
+        "skills": ["Lua", "Corona SDK", "git"],
+        "github": "https://github.com/craftkiller/group_2",
+        "source": "https://github.com/craftkiller/group_2/zipball/master"
+    },
+    {
+        "title": "Finding Nema",
+        "shortdesc": "A 2D shoot-em-up written in pygame from the perspective of a Koi fish",
+        "fulldesc": "A 2D shoot-em-up written in pygame from the perspective of a Koi fish",
+        "startyear": "2011",
+        "type": "Academic",
+        "class": "Game Development I",
+        "contributors": ["Michael \"Chap\" Gruar", "Ryan Knight", "David Estrella", "Beth Werbaneth"],
+        "purpose": "Given 2 weeks: Write a 2D shoot-em-up using pygame",
+        "skills": ["Python", "PyGame", "git"],
+        "github": "https://github.com/craftkiller/h_and_b",
+        "source": "https://github.com/craftkiller/h_and_b/zipball/master"
+    },
+    {
+        "title": "Wold",
+        "shortdesc": "A world simulation game",
+        "startyear": "2010",
+        "type": "Personal",
+        "contributors": ["Michael Chap Gruar", "Tate Larsen"],
+        "purpose": "Learn 3D OpenGL, Learn OpenAL, Experience working with group, Learn Doxygen style documentation, Expand knowledge of threading",
+        "skills":
+        [
+            "3D OpenGL",
+            "SDL",
+            "CMake",
+            "Git",
+            "OpenAL",
+            "Doxygen",
+            "Pthreads"
+        ],
+        "status": "This project is still in its infancy. Currently OBJ model loading, camera movement functions, height map generation, lighting, and vertex buffer objects are working.",
+        "fulldesc": "The goal of this project is to create an open world in which the player can affect the creation of empires. The player will take a first person role in a medieval time period. All NPCs will spawn randomly throughout the environment with no political affiliations. Throughout the game NPCs will attack each other for various resources and subjugate the conquered, forming various styles of control structures. Attached in the Game Design Document that one member of the development team wrote up.",
+        "pictures":
+        [
+            "img/wold/Screenshot-7",
+            "img/wold/Screenshot-8",
+            "img/wold/Screenshot-9"
+        ],
+        "videos":
+        [
+            "vid/wold/vid3.webm"
+        ],
+        "documentation": "http://wolddoc.paphus.com/",
+        "github": "https://github.com/craftkiller/wold",
+        "source": "https://github.com/craftkiller/wold/zipball/master"
+    },
+    {
+        "title": "RPITDA",
+        "shortdesc": "A 2D tower defense game with variable path.",
+        "startyear": "2009",
+        "type": "Personal",
+        "contributors": ["Paul Tetreau", "Tate Larsen"],
+        "purpose": "Learn 2D OpenGL, Learn A* Path Finding",
+        "skills":
+        [
+            "A* Path Finding",
+            "2D OpenGL",
+            "SDL",
+            "CMake",
+            "Subversion",
+            "Git"
+        ],
+        "status": "The game engine is complete and functioning.<br>The game is lacking in art assets.<br>The game needs more towers, missiles, and enemies designed.",
+        "fulldesc": "This project is a 2 Dimensional tower defense game that doesnâ€™t have a set path for the enemies to travel. Instead, players are allowed to place towers in formations to force the enemies through intricate mazes, allowing the playing to fully express themselves in their tower design.",
+        "pictures": ["img/rpitda/1", "img/rpitda/2"],
+        "videos": ["vid/rpitda/vid1.webm"]
+    },
+    {
+        "title": "Snail Interpreter",
+        "shortdesc": "A Snail interpreter written in Lex and Yacc",
+        "fulldesc": "A Snail interpreter written in Lex and Yacc",
+        "type": "Academic",
+        "startyear": "Spring 2011",
+        "class": "Models of Computation CSCI-2400",
+        "skills":
+        [
+            "Lex",
+            "Yacc"
+        ],
+        "source": "source/snail.zip"
+    },
+    {
+        "title": "Path",
+        "shortdesc": "An A* pathfinding library.",
+        "startyear": "2009",
+        "type": "Personal",
+        "purpose": "Improve my A* implementation, Learn Git, Maintain a single code base for path finding which my other projects can pull from",
+        "skills":
+        [
+            "A* Path Finding",
+            "CMake",
+            "Git"
+        ],
+        "status": "Path finding functions properly using Manhattan heuristic.<br>Nodes are stored in STL Priority Queues which use Binary Heaps for efficiency.<br>There is still room for optimization.",
+        "fulldesc": "Shortly after writing my path finding for RPITDA, I concluded that path finding is a tool that can be used in almost any project. Rather than maintaining separate code bases for my path finding in each individual project, I decided the best way to maintain my path finding with a separate project. I also took this opportunity to learn the git source code management system. I do my best to maintain backwards compatibility so that all my projects can pull updated copies of the code without any difficulty.",
+        "pictures": ["img/path/Screenshot-1"]
+    }
+]

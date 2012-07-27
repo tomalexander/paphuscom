@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+git commit -a -m"virtual publish"
+git push
+ssh -p 2200 pub@localhost "./publish"
+
