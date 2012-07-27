@@ -32,7 +32,7 @@
     },
     {
         "title": "Rezolution",
-        "shortdesc": "A networked multiplayer 3D bump car game",
+        "shortdesc": "A networked multiplayer 3D bumper car game",
         "fulldesc": "Enter an arena with other online players in a 3D bumper car game. Turn off your lights to go stealth and smash your opponents into the various traps around the arena.",
         "startyear": "2011",
         "type": "Academic",
@@ -42,7 +42,8 @@
         "purpose": "Given two weeks write a 3D vehicle game in Panda3D with working headlights",
         "skills": ["wxPython", "Panda3D", "PHP", "Python", "git"],
         "github": "https://github.com/craftkiller/group-3",
-        "source": "https://github.com/craftkiller/group-3/zipball/master"
+        "source": "https://github.com/craftkiller/group-3/zipball/master",
+        "pictures": ["img/rezolution/rez1", "img/rezolution/rez2"]
     },
     {
         "title": "Extraction",
@@ -55,7 +56,8 @@
         "purpose": "Given 2 weeks and the random verbs \"Extract\" and \"Distribute\" write a cellphone game using the Corona SDK with those two verbs as the main actions",
         "skills": ["Lua", "Corona SDK", "git"],
         "github": "https://github.com/craftkiller/group_2",
-        "source": "https://github.com/craftkiller/group_2/zipball/master"
+        "source": "https://github.com/craftkiller/group_2/zipball/master",
+        "pictures": ["img/extraction/title.png"]
     },
     {
         "title": "Finding Nema",
@@ -68,7 +70,9 @@
         "purpose": "Given 2 weeks: Write a 2D shoot-em-up using pygame",
         "skills": ["Python", "PyGame", "git"],
         "github": "https://github.com/craftkiller/h_and_b",
-        "source": "https://github.com/craftkiller/h_and_b/zipball/master"
+        "source": "https://github.com/craftkiller/h_and_b/zipball/master",
+        "role": "I wrote the code for the side bear, the water bear, the energy and distance bars, the menus, and the key binding functionality",
+        "pictures": ["img/nema/nema1", "img/nema/nema2"]
     },
     {
         "title": "Wold",
@@ -141,7 +145,7 @@
     {
         "title": "Path",
         "shortdesc": "An A* pathfinding library.",
-        "startyear": "2009",
+        "startyear": "2009/2012",
         "type": "Personal",
         "purpose": "Improve my A* implementation, Learn Git, Maintain a single code base for path finding which my other projects can pull from",
         "skills":
@@ -150,8 +154,10 @@
             "CMake",
             "Git"
         ],
-        "status": "Path finding functions properly using Manhattan heuristic.<br>Nodes are stored in STL Priority Queues which use Binary Heaps for efficiency.<br>There is still room for optimization.",
-        "fulldesc": "Shortly after writing my path finding for RPITDA, I concluded that path finding is a tool that can be used in almost any project. Rather than maintaining separate code bases for my path finding in each individual project, I decided the best way to maintain my path finding with a separate project. I also took this opportunity to learn the git source code management system. I do my best to maintain backwards compatibility so that all my projects can pull updated copies of the code without any difficulty.",
-        "pictures": ["img/path/Screenshot-1"]
+        "status": "Revived this project to bring it into the new age of C++11. This will be more flexible and run faster than the previous project from the years of programming inbetween.",
+        "fulldesc": "Revived this project to bring it into the new age of C++11. This will be more flexible and run faster than the previous project from the years of programming inbetween.",
+        "pictures": ["img/path/Screenshot-1"],
+        "github": "https://github.com/craftkiller/path",
+        "source": "https://github.com/craftkiller/path/zipball/master"
     }
 ]
