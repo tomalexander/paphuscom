@@ -23,7 +23,7 @@ class about_me_box
   Map data;
   about_me_box()
   {
-    content = new Element.html("<div class=\"rounded_tile\">About me goes here</div>");
+    content = new Element.html("<div class=\"rounded_tile\">Loading...</div>");
     get_about_me();
   }
 
