@@ -2,5 +2,5 @@
 #
 git commit -a -m"virtual publish"
 git push
-ssh -p 2200 pub@localhost "./publish"
+ssh -p 2200 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no pub@localhost "./publish"
 
