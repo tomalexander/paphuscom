@@ -1,2 +1,2 @@
 /usr/local/bin/dart2js main.dart
-rsync -avz --progress index.html out.js style.css projects.json about_me.json paphus@paphus.com:~/paphus.com/
+rsync -avz --progress index.html out.js style.css projects.json about_me.json ie_warning.js paphus@paphus.com:~/paphus.com/
