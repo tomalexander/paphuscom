@@ -1,11 +1,11 @@
-#library("main");
+library main;
 
-#import("dart:html");
-#import("dart:json");
-#import("dart:core");
-#import("about.dart");
-#import("contributions.dart");
-#import("project_parser.dart");
+import "dart:html";
+import "dart:json";
+import "dart:core";
+import "about.dart";
+import "contributions.dart";
+import "project_parser.dart";
 
 DivElement header;
 DivElement left;
@@ -186,8 +186,8 @@ void main()
     proj = new project_box();
     display_about();
     handle_history();
-  }
-  catch (Exception ex) {
+  } on Exception
+  catch (ex) {
     document.window.alert(ex.toString());
   }
 }

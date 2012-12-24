@@ -1,7 +1,7 @@
-#library("main");
+library about;
 
-#import("dart:html");
-#import("dart:json");
+import "dart:html";
+import "dart:json";
 
 class about_box
 {
@@ -32,15 +32,15 @@ class about_me_box
     var url = "about_me.json"; 
   
     // call the web server asynchronously 
-    var request = new XMLHttpRequest.get(url, process_me);
+    var request = new HttpRequest.get(url, process_me);
   }
 
-  void process_me(XMLHttpRequest req)
+  void process_me(HttpRequest req)
   {
     try {
       data = JSON.parse(req.responseText);
     }
-    catch (Exception ex) {
+    on Exception catch (ex) {
       document.window.alert(ex.toString());
     }
     update_me();

@@ -1,7 +1,7 @@
-#library("main");
+library project_parser;
 
-#import("dart:html");
-#import("dart:json");
+import "dart:html";
+import "dart:json";
 
 
 class project_box
@@ -60,14 +60,14 @@ class project_box
     var url = "projects.json"; 
   
     // call the web server asynchronously 
-    var request = new XMLHttpRequest.get(url, process_projects);
+    var request = new HttpRequest.get(url, process_projects);
   }
 
-  void process_projects(XMLHttpRequest req)
+  void process_projects(HttpRequest req)
   {
     try {
       parsed_projects = JSON.parse(req.responseText);
-    } catch (Exception ex) {
+    } on Exception catch (ex) {
       document.window.alert(ex.toString());
     }
     update_projects();
@@ -200,7 +200,7 @@ class project
       window.history.pushState(null, "Projects", "${without_hash}#projects_${without_spaces}");
     else
       window.history.replaceState(null, "Projects", "${without_hash}#projects_${without_spaces}");
-    } catch (Exception ex) {
+    } on Exception catch (ex) {
     document.window.alert(ex.toString());
   }
   }

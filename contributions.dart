@@ -1,6 +1,6 @@
-#library("main");
+library contributions;
 
-#import("dart:html");
+import "dart:html";
 
 class contrib_box
 {
