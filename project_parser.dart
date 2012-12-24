@@ -58,7 +58,6 @@ class project_box
   void get_projects()
   {
     var url = "projects.json"; 
-  
     // call the web server asynchronously 
     var request = new HttpRequest.get(url, process_projects);
   }
@@ -118,7 +117,8 @@ class project
   void add_image(target_div, src)
   {
     Element link = new Element.html("<a href=\"${src}.png\"></a>");
-    ImageElement tmp = new ImageElement("${src}_thumbnail.png");
+    Element tmp = new Element.html("<img src=\"${src}_thumbnail.png\">");
+    // ImageElement tmp = new ImageElement("${src}_thumbnail.png");
     link.nodes.add(tmp);
     target_div.nodes.add(link);
   }
@@ -173,9 +173,7 @@ class project
         add_text_field(short_div, "shortdesc", "Short Description");
         add_text_field(short_div, "type", "Type");
         add_text_field(short_div, "startyear", "Start Year");
-
         add_picture_list(short_div);
-    
         short_div.nodes.add(generate_button("Expand Project", show_long_history));
         if (data["github"] != null)
           short_div.nodes.add(generate_link_button("Github", data["github"]));
@@ -186,23 +184,22 @@ class project
         if (data["binaries"] != null)
           short_div.nodes.add(generate_link_button("Compiled Binaries", data["binaries"]));
       }
-
     content.nodes.add(short_div);
   }
 
   void show_long_history()
   {
     try {
-    show_long();
-    String without_hash = window.location.toString().replaceFirst(window.location.hash, "");
-    String without_spaces = data["title"].replaceAll(" ", "");
-    if (window.location.hash == "#projects")
-      window.history.pushState(null, "Projects", "${without_hash}#projects_${without_spaces}");
-    else
-      window.history.replaceState(null, "Projects", "${without_hash}#projects_${without_spaces}");
+      show_long();
+      String without_hash = window.location.toString().replaceFirst(window.location.hash, "");
+      String without_spaces = data["title"].replaceAll(" ", "");
+      if (window.location.hash == "#projects")
+        window.history.pushState(null, "Projects", "${without_hash}#projects_${without_spaces}");
+      else
+        window.history.replaceState(null, "Projects", "${without_hash}#projects_${without_spaces}");
     } on Exception catch (ex) {
-    document.window.alert(ex.toString());
-  }
+      document.window.alert(ex.toString());
+    }
   }
 
   void show_long()
