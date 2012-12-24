@@ -1,3 +1,0 @@
-#!/bin/sh
-#
-qemu-kvm -redir tcp:2200::22 -vnc :1 -daemonize -snapshot ~/dart.qcow2
