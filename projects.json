@@ -31,6 +31,17 @@
         "pictures": ["img/nostalgia/1", "img/nostalgia/2", "img/nostalgia/3"]
     },
     {
+        "title": "Paphus.com",
+        "shortdesc": "This portfolio website, handwritten in Google Dart",
+        "fulldesc": "This portfolio website, handwritten in Google Dart using asynchronous calls to json files to load data",
+        "startyear": "2012",
+        "type": "Personal",
+        "purpose": "Learn Google Dart and find a career",
+        "skills": ["Google Dart", "JSON", "CSS"],
+        "github": "https://github.com/craftkiller/paphuscom",
+        "source": "https://github.com/craftkiller/paphuscom/zipball/master"
+    },
+    {
         "title": "Rezolution",
         "shortdesc": "A networked multiplayer 3D bumper car game",
         "fulldesc": "Enter an arena with other online players in a 3D bumper car game. Turn off your lights to go stealth and smash your opponents into the various traps around the arena.",

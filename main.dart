@@ -41,7 +41,7 @@ class main_nav_bar {
     ul_element = new Element.html("<ul class=\"main_nav_bar\"></ul>");
     li_elements = new List<LIElement>();
     this.add_link("Home", "/");
-    add_link("R&eacute;sum&eacute;", "resume.pdf");
+    add_link("R&eacute;sum&eacute;", "tom_alexander_resume.pdf");
     add_link("Blog", "http://blog.paphus.com");
   }
 

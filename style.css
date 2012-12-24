@@ -19,7 +19,7 @@ body {
   min-width: 800px;      /* 2x LC width */
 }
 #container {
-  padding-left: 400px;   /* LC width */
+  padding-left: 300px;   /* LC width */
 }
 #container .column {
   position: relative;
@@ -32,8 +32,8 @@ body {
   padding-top: 10px;
 }
 #left {
-  width: 400px;          /* LC width */
-  right: 410px;          /* LC width */
+  width: 300px;          /* LC width */
+  right: 310px;          /* LC width */
   margin-left: -100%;
   padding-left: 10px;
   vertical-align:top;
@@ -47,7 +47,7 @@ body {
 .titlebar {
     color: #dfdfdf;
     background: #000000;
-    font-size: 3em;
+    font-size: 2em;
     height:70px;
 }
 
@@ -87,7 +87,7 @@ a.main_nav_item:active
 }
 
 .side_nav_bar {
-    font-size: 1.3em;
+    font-size: 1em;
     width: 100%;
 }
 ul.side_nav_bar {
