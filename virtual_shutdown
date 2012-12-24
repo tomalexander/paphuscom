@@ -1,4 +1,0 @@
-#!/bin/sh
-#
-ssh -p 2200 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no pub@localhost "sudo shutdown -hP now"
-
