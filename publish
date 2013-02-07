@@ -1,4 +1,4 @@
 #!/bin/sh
 #
-dart2js main.dart
+dart2js --minify main.dart
 rsync -avz --progress index.html out.js style.css projects.json about_me.json ie_warning.js paphus@paphus.com:~/paphus.com/
