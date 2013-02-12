@@ -59,7 +59,7 @@ class project_box
   {
     var url = "projects.json"; 
     // call the web server asynchronously 
-    var request = new HttpRequest.get(url, process_projects);
+    HttpRequest.getString(url).then(process_projects);
   }
 
   void process_projects(HttpRequest req)

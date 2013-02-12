@@ -32,7 +32,7 @@ class about_me_box
     var url = "about_me.json"; 
   
     // call the web server asynchronously 
-    var request = new HttpRequest.get(url, process_me);
+    HttpRequest.getString(url).then(process_me);
   }
 
   void process_me(HttpRequest req)
