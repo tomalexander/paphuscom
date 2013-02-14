@@ -2,7 +2,7 @@ library project_parser;
 
 import "dart:html";
 import "dart:json";
-
+import "util.dart";
 
 class project_box
 {
@@ -59,13 +59,13 @@ class project_box
   {
     var url = "projects.json"; 
     // call the web server asynchronously 
-    var request = new HttpRequest.get(url, process_projects);
+    get_string(url, "", process_projects);
   }
 
-  void process_projects(HttpRequest req)
+  void process_projects(String req)
   {
     try {
-      parsed_projects = JSON.parse(req.responseText);
+      parsed_projects = JSON.parse(req);
     } on Exception catch (ex) {
       document.window.alert(ex.toString());
     }

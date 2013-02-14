@@ -2,6 +2,7 @@ library about;
 
 import "dart:html";
 import "dart:json";
+import "util.dart";
 
 class about_box
 {
@@ -32,13 +33,13 @@ class about_me_box
     var url = "about_me.json"; 
   
     // call the web server asynchronously 
-    var request = new HttpRequest.get(url, process_me);
+    get_string(url, "", process_me);
   }
 
-  void process_me(HttpRequest req)
+  void process_me(String req)
   {
     try {
-      data = JSON.parse(req.responseText);
+      data = JSON.parse(req);
     }
     on Exception catch (ex) {
       document.window.alert(ex.toString());
