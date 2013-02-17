@@ -39,7 +39,7 @@ class about_me_box
   void process_me(String req)
   {
     try {
-      data = JSON.parse(req);
+      data = parse(req);
     }
     on Exception catch (ex) {
       document.window.alert(ex.toString());

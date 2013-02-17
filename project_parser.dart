@@ -65,7 +65,7 @@ class project_box
   void process_projects(String req)
   {
     try {
-      parsed_projects = JSON.parse(req);
+      parsed_projects = parse(req);
     } on Exception catch (ex) {
       document.window.alert(ex.toString());
     }
